@@ -1,0 +1,54 @@
+- `ls -al`: List all files in the current directory
+- `cat [file.txt]`: Read contents of the file
+- `pwd`: Displays your current directory
+- `cd [dir_name]`: Change directory
+- `mkdir [dir_name]`: Make a new directory
+- `whoami`: Displays your username
+- `id`: Displays your ID, username, and group information
+- `rm [file_name]`: Remove files
+- `mv [file_name] [destination_dir]`: Move file from one directory to another
+- `cp [source_path] [destination_path]`: Copy files from one directory to another
+- `find [dir] -name [pattern]`: Finds all files that match the pattern in the directory
+- `chmod 777 [filename]`: Change permissions for users, group, and others where rwx rwx rwx for owner group others
+- `chown [username] [filename]`: Change ownership of filename
+- `sudo [username]`: Change into that user
+- `chgrp [groupname] [filename]`: Change group for that file
+- `ps`: List running processes
+- `kill <PID>`: Kills the process
+- `exec`: Execute the command after the pipe
+- `ip addr` / `ifconfig`: Shows IP address
+- `ping [address]`: Pings the address
+- `netstat`: Displays inbound and outbound rules
+- `head [filename/path]`: Show the head of the file
+- `tail [filename/path]`: Show the tail of the file
+- `grep [pattern]`: Finds matching pattern
+- `wc [filename.txt]`: Word count
+- `sort -n [filename]`: Sort the files in alphabetical order
+- `cut [filename]`: Cuts out specific parts of the file
+- `gzip [options] [filename]` / `gunzip [options] [filename]`: Gzip compresses the filename
+- `tar [filename.tar] [file]`: Compress or archive files
+- `uniq`: Displays unique files/lines in a file
+- `printenv`: Print environment variables
+- `umask`: Changes permissions for a file
+- `du`: Disk utilization
+- `df`: Free disk space
+- `dirname`: Displays directory name
+- `jobs`: Displays all jobs that are running
+- `bg` / `fg`: Run a process in the background and foreground
+- `type`: Shows what kind it is—executable / shell built-in program / shell function / alias
+- `which docker`: Find shell path
+- `xargs`: Changes one command output to an argument
+- `passwd`: Changes password
+- `traceroute [host]`: Displays the route to reach the host
+- `locate`: Find a file
+- `cat /etc/passwd`: See user details
+- `cat /etc/group`: See group details
+- `useradd/userdel [username]`: Username add/delete
+- `telnet [host]`: Interactive session with host
+- `free`: Free space
+- `lsb_release -a`: Which Ubuntu version are we using
+- `curl [host]`: Connect to a server with HTTP
+- `sudo openconnect`: Connect to VPN
+- `lscpu`: Show CPU info
+- `scp user@machine`: Copy file to machine
+- `/etc/shadow`: Password stored in hash
