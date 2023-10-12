@@ -1,0 +1,74 @@
+# Linux Commands Explanation
+
+This document provides explanations and use cases for common Linux commands frequently used in DevOps workflows.
+
+## 1. File System Navigation
+
+### `cd`
+- **Description:** Change directory.
+- **Use Case:** Navigate to a different directory in the file system.
+- **Example:** `cd /path/to/directory`
+
+### `ls`
+- **Description:** List files and directories.
+- **Use Case:** View the contents of the current directory.
+- **Example:** `ls -al`
+
+### `pwd`
+- **Description:** Print working directory.
+- **Use Case:** Display the current working directory.
+- **Example:** `pwd`
+
+## 2. File and Directory Operations
+
+### `mkdir`
+- **Description:** Create a directory.
+- **Use Case:** Make a new directory.
+- **Example:** `mkdir new_directory`
+
+### `touch`
+- **Description:** Create an empty file.
+- **Use Case:** Quickly create an empty file.
+- **Example:** `touch new_file.txt`
+
+### `cp`
+- **Description:** Copy files or directories.
+- **Use Case:** Duplicate files or directories.
+- **Example:** `cp source_file.txt destination/`
+
+### `mv`
+- **Description:** Move or rename files or directories.
+- **Use Case:** Change the location or name of a file or directory.
+- **Example:** `mv old_name.txt new_directory/`
+
+### `rm`
+- **Description:** Remove files or directories.
+- **Use Case:** Delete files or directories.
+- **Example:** `rm unwanted_file.txt`
+
+## 3. Text Editing
+
+### `nano`
+- **Description:** Text editor for creating and editing files.
+- **Use Case:** Edit files in the terminal.
+- **Example:** `nano new_file.txt`
+
+### `vim`
+- **Description:** Text editor with advanced features.
+- **Use Case:** Edit and manipulate text files.
+- **Example:** `vim existing_file.txt`
+
+## 4. File Viewing
+
+### `cat`
+- **Description:** Display the contents of a file.
+- **Use Case:** View the content of a file directly.
+- **Example:** `cat file.txt`
+
+### `less`
+- **Description:** View long text files page by page.
+- **Use Case:** Navigate through large files.
+- **Example:** `less large_log_file.log`
+
+...
+
