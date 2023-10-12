@@ -8,6 +8,9 @@ This document provides explanations and use cases for common Linux commands freq
 - **Description:** Change directory.
 - **Use Case:** Navigate to a different directory in the file system.
 - **Example:** `cd /path/to/directory`
+- **Working**
+-![Screenshot](This PC/Pictures/cd.png)
+
 
 ### `ls`
 - **Description:** List files and directories.
